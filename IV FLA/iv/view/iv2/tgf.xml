@@ -1,0 +1,2168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created by XMLPrettyPrinter on 2005-4-11 from JDesigner 1.951 -->
+<sbml level = "2" version = "1" xmlns = "http://www.sbml.org/sbml/level2" xmlns:jd = "http://www.sys-bio.org/sbml">
+   <annotation>
+      <jd:header>
+         <VersionHeader SBMLVersion = "1.0"/>
+         <ModelHeader Author = "Mr Untitled" ModelTitle = "untitled" ModelVersion = "0.0"/>
+      </jd:header>
+      <jd:display>
+         <SBMLGraphicsHeader BackGroundColor = "15728639"/>
+      </jd:display>
+   </annotation>
+   <!--                     -->
+   <!--  Model Starts Here  -->
+   <!--                     -->
+   <model id = "untitled">
+      <listOfCompartments>
+         <compartment id = "compartment" size = "1">
+            <annotation>
+               <jd:display>
+                  <boundingBox h = "0" w = "0" x = "0" y = "0"/>
+               </jd:display>
+            </annotation>
+         </compartment>
+         <compartment id = "Compartment_0" size = "1E-12">
+            <annotation>
+               <jd:display>
+                  <boundingBox h = "802" w = "1111" x = "6" y = "10"/>
+               </jd:display>
+            </annotation>
+         </compartment>
+         <compartment id = "Compartment_1" size = "2E-13">
+            <annotation>
+               <jd:display>
+                  <boundingBox h = "448" w = "772" x = "115" y = "834"/>
+               </jd:display>
+            </annotation>
+         </compartment>
+      </listOfCompartments>
+      <listOfSpecies>
+         <species boundaryCondition = "false" compartment = "Compartment_0" id = "SnoNc" initialConcentration = "10.0029034522022">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "674" y = "569">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+               <jd:listOfShadows>
+                  <shadow name = "___SnoNc_0" x = "822" y = "764"/>
+               </jd:listOfShadows>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "Compartment_0" id = "Smurf2c" initialConcentration = "16.670647808591">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "117" y = "402">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+               <jd:listOfShadows>
+                  <shadow name = "___Smurf2c_0" x = "807" y = "344"/>
+                  <shadow name = "___Smurf2c_1" x = "491" y = "371"/>
+               </jd:listOfShadows>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "Compartment_0" id = "SMAD3c" initialConcentration = "50.039010209242">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "599" y = "153">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+               <jd:listOfShadows>
+                  <shadow name = "___SMAD3c_0" x = "730" y = "755"/>
+                  <shadow name = "___SMAD3c_1" x = "967" y = "129"/>
+               </jd:listOfShadows>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "Compartment_0" id = "Smurf2_SMAD7c" initialConcentration = "2.10179385522575">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "20" y = "328">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "Compartment_0" id = "TBR2m" initialConcentration = "11.4183965952975">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "23" y = "95">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "Compartment_0" id = "SMAD4c" initialConcentration = "50.0229029822697">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "559" y = "407">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+               <jd:listOfShadows>
+                  <shadow name = "___SMAD4c_0" x = "446" y = "765"/>
+               </jd:listOfShadows>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "Compartment_0" id = "SMAD7c" initialConcentration = "6.25058378319407">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "105" y = "232">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+               <jd:listOfShadows>
+                  <shadow name = "___SMAD7c_0" x = "245" y = "745"/>
+                  <shadow name = "___SMAD7c_1" x = "455" y = "160"/>
+               </jd:listOfShadows>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "Compartment_0" id = "TBR1m" initialConcentration = "11.4183965952975">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "149" y = "88">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "Compartment_0" id = "TBR2i" initialConcentration = "9.99046601611735">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "30" y = "173">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "Compartment_0" id = "TBR1i" initialConcentration = "9.99046601611735">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "142" y = "161">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "Compartment_1" id = "SMAD4n" initialConcentration = "50.0232350900423">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "450" y = "912">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "Compartment_1" id = "SMAD7n" initialConcentration = "11.2321339510206">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "302" y = "938">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "Compartment_1" id = "Smurf2n" initialConcentration = "15.4015809824462">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "152" y = "958">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+               <jd:listOfShadows>
+                  <shadow name = "___Smurf2n_0" x = "826" y = "994"/>
+               </jd:listOfShadows>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "Compartment_1" id = "SnoNn" initialConcentration = "32.8671287448161">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "691" y = "996">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "Compartment_1" id = "SMAD3n" initialConcentration = "13.6471386466093">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "731" y = "862">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "Compartment_1" id = "Smurf2_SMAD7n" initialConcentration = "3.37101012986825">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "192" y = "855">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "Compartment_1" id = "SMAD3p_2n" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "549" y = "921">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "Compartment_1" id = "SMAD4_SMAD3p_2n" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "486" y = "1002">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "Compartment_1" id = "SnoN_SMAD3pn" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "751" y = "946">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "Compartment_1" id = "Smurf2_SMAD3p_SnoNn" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "737" y = "1043">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "Compartment_1" id = "SnoN_SMAD4_SMAD3p_2n" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "570" y = "1085">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "Compartment_1" id = "SMAD3pn" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "623" y = "861">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "Compartment_0" id = "TGF_TBR2m" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "129" y = "31">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "Compartment_0" id = "TGF_TBR2_TBR1m" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "251" y = "58">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "Compartment_0" id = "TGF_TBR2_TBR1pm" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "411" y = "58">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+               <jd:listOfShadows>
+                  <shadow name = "___TGF_TBR2_TBR1pm_0" x = "997" y = "81"/>
+               </jd:listOfShadows>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "Compartment_0" id = "TGF_TBR2_TBR1p_cPML_SMAD3i" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "616" y = "216">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "Compartment_0" id = "SMAD3p_2c" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "625" y = "381">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+               <jd:listOfShadows>
+                  <shadow name = "___SMAD3p_2c_0" x = "536" y = "769"/>
+               </jd:listOfShadows>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "Compartment_0" id = "SMAD4_SMAD3p_2c" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "561" y = "703">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "Compartment_0" id = "Smurf2_SMAD7_TGF_TBR2_TBR1pm" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "241" y = "346">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "Compartment_0" id = "Smurf2_SMAD7_TGF_TBR2_TBR1pi" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "255" y = "434">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "Compartment_0" id = "SnoN_SMAD3pc" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "768" y = "484">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "Compartment_0" id = "Smurf2_SMAD3p_SnoNc" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "749" y = "411">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "Compartment_0" id = "SMAD3pc" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "711" y = "301">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+               <jd:listOfShadows>
+                  <shadow name = "___SMAD3pc_0" x = "644" y = "763"/>
+               </jd:listOfShadows>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "Compartment_0" id = "TGF_TBR2_TBR1pi" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "247" y = "145">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+               <jd:listOfShadows>
+                  <shadow name = "___TGF_TBR2_TBR1pi_0" x = "846" y = "85"/>
+               </jd:listOfShadows>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "Compartment_0" id = "cPML" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "15728639"
+                           selectedEdgeColor = "255" x = "542" y = "178">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "Compartment_0" id = "TGF_TBR2_TBR1p_cPMLm" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "574" y = "59">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "Compartment_0" id = "TGF_TBR2_TBR1p_cPMLi" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "624" y = "114">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "Compartment_0" id = "cPMLmRNA" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "15728639"
+                           selectedEdgeColor = "255" x = "530" y = "590">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "Compartment_0" id = "Smad7cmRNA" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "15728639"
+                           selectedEdgeColor = "255" x = "239" y = "583">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "Compartment_0" id = "SnoNcmRNA" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "15728639"
+                           selectedEdgeColor = "255" x = "389" y = "589">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "true" compartment = "Compartment_0" id = "TGF" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "27" y = "25">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "true" compartment = "Compartment_1" id = "DNA" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "15728639"
+                           selectedEdgeColor = "255" x = "370" y = "1071">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "Compartment_0" id = "TGF_TBR2_TBR1p_SMAD3i" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "15728639"
+                           selectedEdgeColor = "255" x = "848" y = "211">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "Compartment_0" id = "TGF_TBR2_TBR1p_SMAD3m" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "15728639"
+                           selectedEdgeColor = "255" x = "960" y = "257">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "Compartment_0" id = "SMAD7_TGF_TBR2_TBR1pm" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "15728639"
+                           selectedEdgeColor = "255" x = "392" y = "265">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "Compartment_0" id = "SMAD7_TGF_TBR2_TBR1pi" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "15728639"
+                           selectedEdgeColor = "255" x = "266" y = "224">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+      </listOfSpecies>
+      <listOfParameters>
+      </listOfParameters>
+      <listOfReactions>
+         <reaction id = "J0" reversible = "true">
+            <listOfReactants>
+               <speciesReference species = "TGF" stoichiometry = "1"/>
+               <speciesReference species = "TBR2m" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "TGF_TBR2m" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "81" y = "54"/>
+                  <pt x = "57" y = "44"/>
+                  <pt x = "60" y = "64"/>
+                  <pt x = "59" y = "80"/>
+                  <pt x = "60" y = "64"/>
+                  <pt x = "102" y = "44"/>
+                  <pt x = "103" y = "44"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <ci>
+                         v 
+                  </ci>
+               </math>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J1" reversible = "true">
+            <listOfReactants>
+               <speciesReference species = "TGF_TBR2m" stoichiometry = "1"/>
+               <speciesReference species = "TBR1m" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "TGF_TBR2_TBR1m" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "207" y = "66"/>
+                  <pt x = "183" y = "52"/>
+                  <pt x = "183" y = "66"/>
+                  <pt x = "186" y = "81"/>
+                  <pt x = "183" y = "66"/>
+                  <pt x = "231" y = "66"/>
+                  <pt x = "229" y = "62"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <ci>
+                         v 
+                  </ci>
+               </math>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J2" reversible = "true">
+            <listOfReactants>
+               <speciesReference species = "TGF_TBR2_TBR1m" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "TGF_TBR2_TBR1pm" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "76" y = "62"/>
+                  <pt x = "377" y = "63"/>
+                  <pt x = "377" y = "63"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <ci>
+                         v 
+                  </ci>
+               </math>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J3" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "cPML" stoichiometry = "1"/>
+               <speciesReference species = "TGF_TBR2_TBR1pm" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "TGF_TBR2_TBR1p_cPMLm" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "546" y = "90"/>
+                  <pt x = "545" y = "107"/>
+                  <pt x = "536" y = "96"/>
+                  <pt x = "490" y = "73"/>
+                  <pt x = "536" y = "96"/>
+                  <pt x = "556" y = "84"/>
+                  <pt x = "551" y = "89"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <ci>
+                         v 
+                  </ci>
+               </math>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J4" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "SMAD3c" stoichiometry = "1"/>
+               <speciesReference species = "TGF_TBR2_TBR1p_cPMLi" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "TGF_TBR2_TBR1p_cPML_SMAD3i" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "719" y = "164"/>
+                  <pt x = "668" y = "157"/>
+                  <pt x = "701" y = "159"/>
+                  <pt x = "685" y = "157"/>
+                  <pt x = "701" y = "159"/>
+                  <pt x = "737" y = "169"/>
+                  <pt x = "742" y = "174"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <ci>
+                         v 
+                  </ci>
+               </math>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J5" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "TGF_TBR2_TBR1p_cPML_SMAD3i" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "TGF_TBR2_TBR1p_cPMLi" stoichiometry = "1"/>
+               <speciesReference species = "SMAD3pc" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "685" y = "225"/>
+                  <pt x = "654" y = "227"/>
+                  <pt x = "685" y = "224"/>
+                  <pt x = "685" y = "226"/>
+                  <pt x = "687" y = "197"/>
+                  <pt x = "685" y = "226"/>
+                  <pt x = "725" y = "247"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <ci>
+                         v 
+                  </ci>
+               </math>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J6" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "TGF_TBR2_TBR1p_cPMLi" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "cPML" stoichiometry = "1"/>
+               <speciesReference species = "TGF_TBR2_TBR1pi" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "586" y = "123"/>
+                  <pt x = "641" y = "129"/>
+                  <pt x = "593" y = "122"/>
+                  <pt x = "579" y = "124"/>
+                  <pt x = "574" y = "143"/>
+                  <pt x = "579" y = "124"/>
+                  <pt x = "437" y = "139"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <ci>
+                         v 
+                  </ci>
+               </math>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J7" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "DNA" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "cPMLmRNA" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "107" y = "874"/>
+                  <pt x = "422" y = "1042"/>
+                  <pt x = "362" y = "705"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <ci>
+                         v 
+                  </ci>
+               </math>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J8" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "cPMLmRNA" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "cPML" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "238" y = "408"/>
+                  <pt x = "529" y = "502"/>
+                  <pt x = "539" y = "307"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <ci>
+                         v 
+                  </ci>
+               </math>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J9" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "SMAD3pc" stoichiometry = "2"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "SMAD3p_2c" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "399" y = "343"/>
+                  <pt x = "703" y = "337"/>
+                  <pt x = "697" y = "349"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <ci>
+                         v 
+                  </ci>
+               </math>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J10" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "SMAD3pn" stoichiometry = "2"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "SMAD3p_2n" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "298" y = "894"/>
+                  <pt x = "597" y = "894"/>
+                  <pt x = "597" y = "894"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <ci>
+                         v 
+                  </ci>
+               </math>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J11" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "SMAD4c" stoichiometry = "1"/>
+               <speciesReference species = "SMAD3p_2c" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "SMAD4_SMAD3p_2c" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "619" y = "521"/>
+                  <pt x = "595" y = "468"/>
+                  <pt x = "621" y = "527"/>
+                  <pt x = "653" y = "422"/>
+                  <pt x = "621" y = "527"/>
+                  <pt x = "617" y = "515"/>
+                  <pt x = "609" y = "593"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <ci>
+                         v 
+                  </ci>
+               </math>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J12" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "SMAD4n" stoichiometry = "1"/>
+               <speciesReference species = "SMAD3p_2n" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "SMAD4_SMAD3p_2n" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "534" y = "951"/>
+                  <pt x = "511" y = "933"/>
+                  <pt x = "532" y = "951"/>
+                  <pt x = "557" y = "939"/>
+                  <pt x = "532" y = "951"/>
+                  <pt x = "536" y = "951"/>
+                  <pt x = "531" y = "971"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <ci>
+                         v 
+                  </ci>
+               </math>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J13" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "DNA" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "Smad7cmRNA" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "45" y = "872"/>
+                  <pt x = "350" y = "856"/>
+                  <pt x = "348" y = "901"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <ci>
+                         v 
+                  </ci>
+               </math>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J14" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "DNA" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "SnoNcmRNA" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "102" y = "874"/>
+                  <pt x = "402" y = "882"/>
+                  <pt x = "406" y = "877"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <ci>
+                         v 
+                  </ci>
+               </math>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J15" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "Smurf2n" stoichiometry = "1"/>
+               <speciesReference species = "SMAD7n" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "Smurf2_SMAD7n" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "249" y = "922"/>
+                  <pt x = "261" y = "976"/>
+                  <pt x = "247" y = "922"/>
+                  <pt x = "260" y = "959"/>
+                  <pt x = "247" y = "922"/>
+                  <pt x = "251" y = "922"/>
+                  <pt x = "245" y = "890"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            J15_k 
+                     </ci>
+                     <ci>
+                            Smurf2n 
+                     </ci>
+                     <ci>
+                            SMAD7n 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "J15_k" value = "0.1"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J16" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "SMAD7c" stoichiometry = "1"/>
+               <speciesReference species = "Smurf2c" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "Smurf2_SMAD7c" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "134" y = "347"/>
+                  <pt x = "136" y = "284"/>
+                  <pt x = "137" y = "347"/>
+                  <pt x = "127" y = "366"/>
+                  <pt x = "137" y = "347"/>
+                  <pt x = "131" y = "347"/>
+                  <pt x = "112" y = "342"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <ci>
+                         v 
+                  </ci>
+               </math>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J17" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "Smurf2_SMAD7c" stoichiometry = "1"/>
+               <speciesReference species = "TGF_TBR2_TBR1m" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "Smurf2_SMAD7_TGF_TBR2_TBR1pm" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "203" y = "219"/>
+                  <pt x = "158" y = "270"/>
+                  <pt x = "185" y = "212"/>
+                  <pt x = "237" y = "118"/>
+                  <pt x = "185" y = "212"/>
+                  <pt x = "221" y = "226"/>
+                  <pt x = "221" y = "242"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <ci>
+                         v 
+                  </ci>
+               </math>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J18" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "Smurf2_SMAD7_TGF_TBR2_TBR1pm" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "Smurf2c" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "-72" y = "384"/>
+                  <pt x = "234" y = "379"/>
+                  <pt x = "222" y = "392"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <ci>
+                         v 
+                  </ci>
+               </math>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J19" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "Smurf2_SMAD7c" stoichiometry = "1"/>
+               <speciesReference species = "TGF_TBR2_TBR1pi" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "Smurf2_SMAD7_TGF_TBR2_TBR1pi" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "191" y = "323"/>
+                  <pt x = "164" y = "328"/>
+                  <pt x = "180" y = "304"/>
+                  <pt x = "262" y = "213"/>
+                  <pt x = "180" y = "304"/>
+                  <pt x = "202" y = "342"/>
+                  <pt x = "211" y = "365"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <ci>
+                         v 
+                  </ci>
+               </math>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J20" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "Smurf2_SMAD7_TGF_TBR2_TBR1pi" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "Smurf2c" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "-93" y = "406"/>
+                  <pt x = "201" y = "402"/>
+                  <pt x = "195" y = "403"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <ci>
+                         v 
+                  </ci>
+               </math>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J21" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "SnoNn" stoichiometry = "1"/>
+               <speciesReference species = "SMAD3pn" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "SnoN_SMAD3pn" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "708" y = "939"/>
+                  <pt x = "707" y = "971"/>
+                  <pt x = "707" y = "932"/>
+                  <pt x = "668" y = "900"/>
+                  <pt x = "707" y = "932"/>
+                  <pt x = "709" y = "946"/>
+                  <pt x = "729" y = "942"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <ci>
+                         v 
+                  </ci>
+               </math>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J22" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "SnoN_SMAD3pn" stoichiometry = "1"/>
+               <speciesReference species = "Smurf2n" stoichiometry = "1">
+                  <annotation>
+                     <jd:shadowRef shadowRef = "___Smurf2n_0"/>
+                  </annotation>
+               </speciesReference>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "Smurf2_SMAD3p_SnoNn" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "811" y = "1001"/>
+                  <pt x = "801" y = "977"/>
+                  <pt x = "801" y = "977"/>
+                  <pt x = "829" y = "1001"/>
+                  <pt x = "801" y = "977"/>
+                  <pt x = "821" y = "1025"/>
+                  <pt x = "774" y = "1022"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            J22_k 
+                     </ci>
+                     <ci>
+                            SnoN_SMAD3pn 
+                     </ci>
+                     <ci>
+                            Smurf2n 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "J22_k" value = "0.1"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J23" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "SMAD3pc" stoichiometry = "1"/>
+               <speciesReference species = "SnoNc" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "SnoN_SMAD3pc" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "723" y = "446"/>
+                  <pt x = "739" y = "373"/>
+                  <pt x = "724" y = "445"/>
+                  <pt x = "715" y = "478"/>
+                  <pt x = "724" y = "445"/>
+                  <pt x = "722" y = "447"/>
+                  <pt x = "755" y = "461"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            J23_k 
+                     </ci>
+                     <ci>
+                            SMAD3pc 
+                     </ci>
+                     <ci>
+                            SnoNc 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "J23_k" value = "0.1"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J24" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "Smurf2c" stoichiometry = "1">
+                  <annotation>
+                     <jd:shadowRef shadowRef = "___Smurf2c_0"/>
+                  </annotation>
+               </speciesReference>
+               <speciesReference species = "SnoN_SMAD3pc" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "Smurf2_SMAD3p_SnoNc" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "814" y = "420"/>
+                  <pt x = "821" y = "385"/>
+                  <pt x = "821" y = "421"/>
+                  <pt x = "811" y = "456"/>
+                  <pt x = "821" y = "421"/>
+                  <pt x = "807" y = "419"/>
+                  <pt x = "782" y = "416"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            J24_k 
+                     </ci>
+                     <ci>
+                            Smurf2c 
+                     </ci>
+                     <ci>
+                            SnoN_SMAD3pc 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "J24_k" value = "0.1"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J25" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "Smurf2_SMAD3p_SnoNc" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "Smurf2c" stoichiometry = "1">
+                  <annotation>
+                     <jd:shadowRef shadowRef = "___Smurf2c_0"/>
+                  </annotation>
+               </speciesReference>
+               <speciesReference species = "SMAD3pc" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "776" y = "364"/>
+                  <pt x = "789" y = "389"/>
+                  <pt x = "784" y = "387"/>
+                  <pt x = "768" y = "341"/>
+                  <pt x = "794" y = "358"/>
+                  <pt x = "768" y = "341"/>
+                  <pt x = "771" y = "341"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            J25_k 
+                     </ci>
+                     <ci>
+                            Smurf2_SMAD3p_SnoNc 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "J25_k" value = "0.1"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J26" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "SMAD3pc" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "SMAD3c" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "294" y = "233"/>
+                  <pt x = "568" y = "241"/>
+                  <pt x = "576" y = "220"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            J26_k 
+                     </ci>
+                     <ci>
+                            SMAD3pc 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "J26_k" value = "0.1"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J27" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "SMAD4_SMAD3p_2n" stoichiometry = "1"/>
+               <speciesReference species = "SnoNn" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "SnoN_SMAD4_SMAD3p_2n" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "627" y = "1034"/>
+                  <pt x = "582" y = "1021"/>
+                  <pt x = "582" y = "1006"/>
+                  <pt x = "667" y = "1018"/>
+                  <pt x = "582" y = "1006"/>
+                  <pt x = "672" y = "1062"/>
+                  <pt x = "599" y = "1059"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            J27_k 
+                     </ci>
+                     <ci>
+                            SMAD4_SMAD3p_2n 
+                     </ci>
+                     <ci>
+                            SnoNn 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "J27_k" value = "0.1"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J28" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "TBR2m" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "TBR2i" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "-260" y = "140"/>
+                  <pt x = "39" y = "141"/>
+                  <pt x = "39" y = "141"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            J28_k 
+                     </ci>
+                     <ci>
+                            TBR2m 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "J28_k" value = "0.1"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J29" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "TBR1m" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "TBR1i" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "-141" y = "130"/>
+                  <pt x = "158" y = "131"/>
+                  <pt x = "158" y = "131"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            J29_k 
+                     </ci>
+                     <ci>
+                            TBR1m 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "J29_k" value = "0.1"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J30" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "TGF_TBR2_TBR1m" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "TGF_TBR2_TBR1pi" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "-10" y = "107"/>
+                  <pt x = "288" y = "108"/>
+                  <pt x = "288" y = "108"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            J30_k 
+                     </ci>
+                     <ci>
+                            TGF_TBR2_TBR1m 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "J30_k" value = "0.1"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J31" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "SMAD3c" stoichiometry = "1">
+                  <annotation>
+                     <jd:shadowRef shadowRef = "___SMAD3c_0"/>
+                  </annotation>
+               </speciesReference>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "SMAD3n" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "449" y = "814"/>
+                  <pt x = "749" y = "815"/>
+                  <pt x = "749" y = "815"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            J31_k 
+                     </ci>
+                     <ci>
+                            SMAD3c 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "J31_k" value = "0.1"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J32" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "SMAD3pc" stoichiometry = "1">
+                  <annotation>
+                     <jd:shadowRef shadowRef = "___SMAD3pc_0"/>
+                  </annotation>
+               </speciesReference>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "SMAD3pn" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "358" y = "817"/>
+                  <pt x = "661" y = "815"/>
+                  <pt x = "657" y = "821"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            J32_k 
+                     </ci>
+                     <ci>
+                            SMAD3pc 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "J32_k" value = "0.1"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J33" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "SMAD3p_2c" stoichiometry = "1">
+                  <annotation>
+                     <jd:shadowRef shadowRef = "___SMAD3p_2c_0"/>
+                  </annotation>
+               </speciesReference>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "SMAD3p_2n" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "270" y = "849"/>
+                  <pt x = "570" y = "851"/>
+                  <pt x = "570" y = "851"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            J33_k 
+                     </ci>
+                     <ci>
+                            SMAD3p_2c 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "J33_k" value = "0.1"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J34" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "SMAD4c" stoichiometry = "1">
+                  <annotation>
+                     <jd:shadowRef shadowRef = "___SMAD4c_0"/>
+                  </annotation>
+               </speciesReference>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "SMAD4n" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "173" y = "842"/>
+                  <pt x = "475" y = "844"/>
+                  <pt x = "475" y = "844"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            J34_k 
+                     </ci>
+                     <ci>
+                            SMAD4c 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "J34_k" value = "0.1"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J35" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "SMAD4_SMAD3p_2c" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "SMAD4_SMAD3p_2n" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "203" y = "815"/>
+                  <pt x = "462" y = "746"/>
+                  <pt x = "514" y = "869"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            J35_k 
+                     </ci>
+                     <ci>
+                            SMAD4_SMAD3p_2c 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "J35_k" value = "0.1"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J36" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "SMAD7c" stoichiometry = "1">
+                  <annotation>
+                     <jd:shadowRef shadowRef = "___SMAD7c_0"/>
+                  </annotation>
+               </speciesReference>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "SMAD7n" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "-7" y = "845"/>
+                  <pt x = "293" y = "848"/>
+                  <pt x = "293" y = "848"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            J36_k 
+                     </ci>
+                     <ci>
+                            SMAD7c 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "J36_k" value = "0.1"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J37" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "SnoNc" stoichiometry = "1">
+                  <annotation>
+                     <jd:shadowRef shadowRef = "___SnoNc_0"/>
+                  </annotation>
+               </speciesReference>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "SnoNn" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "474" y = "891"/>
+                  <pt x = "825" y = "903"/>
+                  <pt x = "718" y = "890"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            J37_k 
+                     </ci>
+                     <ci>
+                            SnoNc 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "J37_k" value = "0.1"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J38" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "Smurf2c" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "Smurf2n" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "-146" y = "680"/>
+                  <pt x = "154" y = "687"/>
+                  <pt x = "154" y = "687"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            J38_k 
+                     </ci>
+                     <ci>
+                            Smurf2c 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "J38_k" value = "0.1"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J39" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "Smurf2_SMAD7c" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "Smurf2_SMAD7n" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "-167" y = "585"/>
+                  <pt x = "105" y = "590"/>
+                  <pt x = "159" y = "591"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            J39_k 
+                     </ci>
+                     <ci>
+                            Smurf2_SMAD7c 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "J39_k" value = "0.1"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J40" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "SnoN_SMAD3pc" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "SnoN_SMAD3pn" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "499" y = "716"/>
+                  <pt x = "799" y = "722"/>
+                  <pt x = "799" y = "722"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            J40_k 
+                     </ci>
+                     <ci>
+                            SnoN_SMAD3pc 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "J40_k" value = "0.1"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J41" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "Smurf2_SMAD3p_SnoNc" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "Smurf2_SMAD3p_SnoNn" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "577" y = "859"/>
+                  <pt x = "918" y = "925"/>
+                  <pt x = "883" y = "897"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            J41_k 
+                     </ci>
+                     <ci>
+                            Smurf2_SMAD3p_SnoNc 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "J41_k" value = "0.1"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J42" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "SMAD3pn" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "SMAD3n" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "400" y = "866"/>
+                  <pt x = "701" y = "867"/>
+                  <pt x = "701" y = "867"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <ci>
+                         v 
+                  </ci>
+               </math>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J43" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "TGF_TBR2_TBR1p_cPMLm" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "TGF_TBR2_TBR1p_cPMLi" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "348" y = "92"/>
+                  <pt x = "647" y = "93"/>
+                  <pt x = "647" y = "93"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <ci>
+                         v 
+                  </ci>
+               </math>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J44" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "Smad7cmRNA" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "SMAD7c" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "-99" y = "419"/>
+                  <pt x = "198" y = "415"/>
+                  <pt x = "198" y = "415"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <ci>
+                         v 
+                  </ci>
+               </math>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J45" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "SnoNcmRNA" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "SnoNc" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "263" y = "553"/>
+                  <pt x = "564" y = "546"/>
+                  <pt x = "572" y = "545"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <ci>
+                         v 
+                  </ci>
+               </math>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J46" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "TGF_TBR2_TBR1pm" stoichiometry = "1">
+                  <annotation>
+                     <jd:shadowRef shadowRef = "___TGF_TBR2_TBR1pm_0"/>
+                  </annotation>
+               </speciesReference>
+               <speciesReference species = "SMAD3c" stoichiometry = "1">
+                  <annotation>
+                     <jd:shadowRef shadowRef = "___SMAD3c_1"/>
+                  </annotation>
+               </speciesReference>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "TGF_TBR2_TBR1p_SMAD3m" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "1039" y = "183"/>
+                  <pt x = "1041" y = "120"/>
+                  <pt x = "1039" y = "185"/>
+                  <pt x = "1012" y = "154"/>
+                  <pt x = "1039" y = "185"/>
+                  <pt x = "1039" y = "181"/>
+                  <pt x = "1039" y = "190"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <ci>
+                         v 
+                  </ci>
+               </math>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J47" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "TGF_TBR2_TBR1pi" stoichiometry = "1">
+                  <annotation>
+                     <jd:shadowRef shadowRef = "___TGF_TBR2_TBR1pi_0"/>
+                  </annotation>
+               </speciesReference>
+               <speciesReference species = "SMAD3c" stoichiometry = "1">
+                  <annotation>
+                     <jd:shadowRef shadowRef = "___SMAD3c_1"/>
+                  </annotation>
+               </speciesReference>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "TGF_TBR2_TBR1p_SMAD3i" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "926" y = "153"/>
+                  <pt x = "928" y = "156"/>
+                  <pt x = "926" y = "151"/>
+                  <pt x = "957" y = "154"/>
+                  <pt x = "926" y = "151"/>
+                  <pt x = "926" y = "155"/>
+                  <pt x = "912" y = "181"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <ci>
+                         v 
+                  </ci>
+               </math>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J48" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "TGF_TBR2_TBR1p_SMAD3i" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "SMAD3pc" stoichiometry = "1"/>
+               <speciesReference species = "TGF_TBR2_TBR1pi" stoichiometry = "1">
+                  <annotation>
+                     <jd:shadowRef shadowRef = "___TGF_TBR2_TBR1pi_0"/>
+                  </annotation>
+               </speciesReference>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "847" y = "205"/>
+                  <pt x = "848" y = "208"/>
+                  <pt x = "848" y = "208"/>
+                  <pt x = "846" y = "202"/>
+                  <pt x = "799" y = "249"/>
+                  <pt x = "846" y = "202"/>
+                  <pt x = "867" y = "156"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <ci>
+                         v 
+                  </ci>
+               </math>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J49" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "TGF_TBR2_TBR1p_SMAD3m" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "SMAD3pc" stoichiometry = "1"/>
+               <speciesReference species = "TGF_TBR2_TBR1pm" stoichiometry = "1">
+                  <annotation>
+                     <jd:shadowRef shadowRef = "___TGF_TBR2_TBR1pm_0"/>
+                  </annotation>
+               </speciesReference>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "1069" y = "265"/>
+                  <pt x = "1067" y = "265"/>
+                  <pt x = "1075" y = "280"/>
+                  <pt x = "1063" y = "250"/>
+                  <pt x = "863" y = "318"/>
+                  <pt x = "1063" y = "250"/>
+                  <pt x = "1084" y = "181"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <ci>
+                         v 
+                  </ci>
+               </math>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J50" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "TGF_TBR2_TBR1m" stoichiometry = "1"/>
+               <speciesReference species = "SMAD7c" stoichiometry = "1">
+                  <annotation>
+                     <jd:shadowRef shadowRef = "___SMAD7c_1"/>
+                  </annotation>
+               </speciesReference>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "SMAD7_TGF_TBR2_TBR1pm" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "434" y = "207"/>
+                  <pt x = "336" y = "115"/>
+                  <pt x = "426" y = "187"/>
+                  <pt x = "444" y = "168"/>
+                  <pt x = "426" y = "187"/>
+                  <pt x = "442" y = "227"/>
+                  <pt x = "444" y = "234"/>
+               </jd:arcSeg>
+               <jd:builtIn name = "immBiU">
+                  <listOfSymbols>
+                     <parameter name = "J50_k" value = "0.1"/>
+                  </listOfSymbols>
+               </jd:builtIn>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            J50_k 
+                     </ci>
+                     <ci>
+                            TGF_TBR2_TBR1m 
+                     </ci>
+                     <ci>
+                            SMAD7c 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "J50_k" value = "0.1"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J51" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "TGF_TBR2_TBR1pi" stoichiometry = "1"/>
+               <speciesReference species = "SMAD7c" stoichiometry = "1">
+                  <annotation>
+                     <jd:shadowRef shadowRef = "___SMAD7c_1"/>
+                  </annotation>
+               </speciesReference>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "SMAD7_TGF_TBR2_TBR1pi" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "377" y = "197"/>
+                  <pt x = "330" y = "167"/>
+                  <pt x = "389" y = "191"/>
+                  <pt x = "422" y = "175"/>
+                  <pt x = "389" y = "191"/>
+                  <pt x = "365" y = "203"/>
+                  <pt x = "361" y = "207"/>
+               </jd:arcSeg>
+               <jd:builtIn name = "immBiU">
+                  <listOfSymbols>
+                     <parameter name = "J51_k" value = "0.1"/>
+                  </listOfSymbols>
+               </jd:builtIn>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            J51_k 
+                     </ci>
+                     <ci>
+                            TGF_TBR2_TBR1pi 
+                     </ci>
+                     <ci>
+                            SMAD7c 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "J51_k" value = "0.1"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J52" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "SMAD7_TGF_TBR2_TBR1pm" stoichiometry = "1"/>
+               <speciesReference species = "Smurf2c" stoichiometry = "1">
+                  <annotation>
+                     <jd:shadowRef shadowRef = "___Smurf2c_1"/>
+                  </annotation>
+               </speciesReference>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "Smurf2_SMAD7_TGF_TBR2_TBR1pm" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "429" y = "327"/>
+                  <pt x = "449" y = "302"/>
+                  <pt x = "455" y = "328"/>
+                  <pt x = "473" y = "356"/>
+                  <pt x = "455" y = "328"/>
+                  <pt x = "403" y = "326"/>
+                  <pt x = "417" y = "326"/>
+               </jd:arcSeg>
+               <jd:builtIn name = "immBiU">
+                  <listOfSymbols>
+                     <parameter name = "J52_k" value = "0.1"/>
+                  </listOfSymbols>
+               </jd:builtIn>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            J52_k 
+                     </ci>
+                     <ci>
+                            SMAD7_TGF_TBR2_TBR1pm 
+                     </ci>
+                     <ci>
+                            Smurf2c 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "J52_k" value = "0.1"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J53" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "SMAD7_TGF_TBR2_TBR1pi" stoichiometry = "1"/>
+               <speciesReference species = "Smurf2c" stoichiometry = "1">
+                  <annotation>
+                     <jd:shadowRef shadowRef = "___Smurf2c_1"/>
+                  </annotation>
+               </speciesReference>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "Smurf2_SMAD7_TGF_TBR2_TBR1pi" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "456" y = "385"/>
+                  <pt x = "386" y = "309"/>
+                  <pt x = "470" y = "358"/>
+                  <pt x = "480" y = "369"/>
+                  <pt x = "470" y = "358"/>
+                  <pt x = "442" y = "412"/>
+                  <pt x = "420" y = "413"/>
+               </jd:arcSeg>
+               <jd:builtIn name = "immBiU">
+                  <listOfSymbols>
+                     <parameter name = "J53_k" value = "0.1"/>
+                  </listOfSymbols>
+               </jd:builtIn>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            J53_k 
+                     </ci>
+                     <ci>
+                            SMAD7_TGF_TBR2_TBR1pi 
+                     </ci>
+                     <ci>
+                            Smurf2c 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "J53_k" value = "0.1"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+      </listOfReactions>
+   </model>
+</sbml>

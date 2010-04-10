@@ -1,0 +1,45 @@
+﻿<flash_project name="IntuitiveView" version="1">
+    <project_folder name="IV Classes" expanded="true">
+        <project_folder name="iv" expanded="true">
+            <project_folder name="core" expanded="false">
+                <project_file path="./IV Classes/iv/core/IVArrow.as" filetype="as" />
+                <project_file path="./IV Classes/iv/core/IVLabel.as" filetype="as" />
+                <project_file path="./IV Classes/iv/core/IVLogic.as" filetype="as" />
+                <project_file path="./IV Classes/iv/core/IVReaction.as" filetype="as" />
+                <project_file path="./IV Classes/iv/core/IVShape.as" filetype="as" />
+                <project_file path="./IV Classes/iv/core/IVPlot.as" filetype="as" />
+            </project_folder>
+            <project_folder name="utils" expanded="true">
+                <project_file path="./IV Classes/iv/utils/ArrayAscii.as" filetype="as" />
+                <project_file path="./IV Classes/iv/utils/ArrayHelper.as" filetype="as" />
+                <project_file path="./IV Classes/iv/utils/ArraySBML.as" filetype="as" />
+                <project_file path="./IV Classes/iv/utils/Bezier.as" filetype="as" />
+                <project_file path="./IV Classes/iv/utils/Loger.as" filetype="as" />
+                <project_file path="./IV Classes/iv/utils/Flux.as" filetype="as" />
+            </project_folder>
+            <project_folder name="view" expanded="true">
+                <project_file path="./IV Classes/iv/view/Status.as" filetype="as" />
+                <project_file path="./IV Classes/iv/view/Disp.as" filetype="as" />
+                <project_file path="./IV Classes/iv/view/Ctrls.as" filetype="as" />
+            </project_folder>
+            <project_folder name="win" expanded="true">
+                <project_file path="./IV Classes/iv/win/Win.as" filetype="as" />
+                <project_file path="./IV Classes/iv/win/WinMoreOpt.as" filetype="as" />
+                <project_file path="./IV Classes/iv/win/WinSize.as" filetype="as" />
+                <project_file path="./IV Classes/iv/win/WinSizeEmc2.as" filetype="as" />
+                <project_file path="./IV Classes/iv/win/WinSizeLog.as" filetype="as" />
+            </project_folder>
+        </project_folder>
+    </project_folder>
+    <project_folder name="IV FLA" expanded="true">
+        <project_folder name="iv" expanded="true">
+            <project_folder name="view" expanded="true">
+                <project_file path="./IV FLA/iv/view/main.fla" filetype="fla" profile="" def_file="true" />
+            </project_folder>
+            <project_folder name="test" expanded="true">
+                <project_file path="./IV FLA/iv/test/test.fla" filetype="fla" profile="" />
+                <project_file path="./IV FLA/iv/test/Users.as" filetype="as" />
+            </project_folder>
+        </project_folder>
+    </project_folder>
+</flash_project>

@@ -1,0 +1,2504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created by XMLPrettyPrinter on 4/4/2005 from JDesigner 1.951 -->
+<sbml level = "2" version = "1" xmlns = "http://www.sbml.org/sbml/level2" xmlns:jd = "http://www.sys-bio.org/sbml">
+   <annotation>
+      <jd:header>
+         <VersionHeader SBMLVersion = "1.0"/>
+         <ModelHeader Author = "Mr Untitled" ModelTitle = "untitled" ModelVersion = "0.0"/>
+      </jd:header>
+      <jd:display>
+         <SBMLGraphicsHeader BackGroundColor = "15728639"/>
+      </jd:display>
+   </annotation>
+   <!--                     -->
+   <!--  Model Starts Here  -->
+   <!--                     -->
+   <model id = "YeastGlycolysisJDClean.xml">
+      <listOfCompartments>
+         <compartment id = "compartment" size = "1">
+            <annotation>
+               <jd:display>
+                  <boundingBox h = "0" w = "0" x = "0" y = "0"/>
+               </jd:display>
+            </annotation>
+         </compartment>
+      </listOfCompartments>
+      <listOfSpecies>
+         <species boundaryCondition = "false" compartment = "compartment" id = "GLCi" initialConcentration = "0.097652231064563">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "669" y = "57">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "compartment" id = "ATP" initialConcentration = "2.52512746499271">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "11468799"
+                           selectedEdgeColor = "255" x = "510" y = "273">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+               <jd:listOfShadows>
+                  <shadow name = "___ATP_0" x = "408" y = "739"/>
+                  <shadow name = "___ATP_1" x = "711" y = "658"/>
+                  <shadow name = "___ATP_2" x = "896" y = "169"/>
+                  <shadow name = "___ATP_3" x = "510" y = "74"/>
+               </jd:listOfShadows>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "compartment" id = "G6P" initialConcentration = "2.52512746499271">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "676" y = "191">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "compartment" id = "ADP" initialConcentration = "2.52512746499271">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "11468799"
+                           selectedEdgeColor = "255" x = "510" y = "388">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+               <jd:listOfShadows>
+                  <shadow name = "___ADP_0" x = "707" y = "594"/>
+                  <shadow name = "___ADP_1" x = "906" y = "305"/>
+                  <shadow name = "___ADP_2" x = "510" y = "152"/>
+                  <shadow name = "___ADP_3" x = "512" y = "738"/>
+                  <shadow name = "___ADP_4" x = "291" y = "195"/>
+               </jd:listOfShadows>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "compartment" id = "F6P" initialConcentration = "2.52512746499271">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "674" y = "266">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "compartment" id = "F16bP" initialConcentration = "2.52512746499271">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "670" y = "375">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "compartment" id = "AMP" initialConcentration = "2.52512746499271">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "11468799"
+                           selectedEdgeColor = "255" x = "292" y = "340">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "compartment" id = "DHAP" initialConcentration = "2.52512746499271">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "772" y = "464">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "compartment" id = "GAP" initialConcentration = "2.52512746499271">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "623" y = "465">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "compartment" id = "NAD" initialConcentration = "1.50329030201531">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "7446527"
+                           selectedEdgeColor = "255" x = "510" y = "491">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "compartment" id = "BPG" initialConcentration = "1.50329030201531">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "622" y = "584">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "compartment" id = "NADH" initialConcentration = "1.50329030201531">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "7446527"
+                           selectedEdgeColor = "255" x = "511" y = "585">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "compartment" id = "P3G" initialConcentration = "0.885688538360659">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "623" y = "684">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "compartment" id = "P2G" initialConcentration = "0.127695817386632">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "623" y = "746">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "compartment" id = "PEP" initialConcentration = "0.0632352144936527">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "623" y = "820">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "compartment" id = "PYR" initialConcentration = "1.81531251192736">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "302" y = "817">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "compartment" id = "AcAld" initialConcentration = "0.178140579850657">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "97" y = "817">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "true" compartment = "compartment" id = "GLCo" initialConcentration = "2">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16768959"
+                           selectedEdgeColor = "255" x = "837" y = "56">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "true" compartment = "compartment" id = "CO2" initialConcentration = "2">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16768959"
+                           selectedEdgeColor = "255" x = "122" y = "873">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "true" compartment = "compartment" id = "EtOH" initialConcentration = "2">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16768959"
+                           selectedEdgeColor = "255" x = "78" y = "408">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "true" compartment = "compartment" id = "Glycerol" initialConcentration = "2">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16768959"
+                           selectedEdgeColor = "255" x = "768" y = "618">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "true" compartment = "compartment" id = "Glycogen" initialConcentration = "2">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16768959"
+                           selectedEdgeColor = "255" x = "209" y = "88">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "true" compartment = "compartment" id = "Trehalose" initialConcentration = "2">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16768959"
+                           selectedEdgeColor = "255" x = "811" y = "368">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "true" compartment = "compartment" id = "Succinate" initialConcentration = "2">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16768959"
+                           selectedEdgeColor = "255" x = "167" y = "411">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+      </listOfSpecies>
+      <listOfParameters>
+      </listOfParameters>
+      <listOfReactions>
+         <reaction id = "J0" reversible = "true">
+            <listOfReactants>
+               <speciesReference species = "GLCo" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "GLCi" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "766" y = "62"/>
+                  <pt x = "765" y = "63"/>
+                  <pt x = "765" y = "63"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <divide/>
+                     <apply>
+                        <divide/>
+                        <apply>
+                           <times/>
+                           <ci>
+                                  Vmax_1 
+                           </ci>
+                           <apply>
+                              <minus/>
+                              <ci>
+                                     GLCo 
+                              </ci>
+                              <ci>
+                                     GLCi 
+                              </ci>
+                           </apply>
+                        </apply>
+                        <ci>
+                               Kglc_1 
+                        </ci>
+                     </apply>
+                     <apply>
+                        <plus/>
+                        <cn type = "integer">
+                               1 
+                        </cn>
+                        <apply>
+                           <divide/>
+                           <apply>
+                              <plus/>
+                              <ci>
+                                     GLCo 
+                              </ci>
+                              <ci>
+                                     GLCi 
+                              </ci>
+                           </apply>
+                           <ci>
+                                  Kglc_1 
+                           </ci>
+                        </apply>
+                        <apply>
+                           <divide/>
+                           <apply>
+                              <times/>
+                              <ci>
+                                     Ki_1 
+                              </ci>
+                              <ci>
+                                     GLCo 
+                              </ci>
+                              <ci>
+                                     GLCi 
+                              </ci>
+                           </apply>
+                           <apply>
+                              <power/>
+                              <ci>
+                                     Kglc_1 
+                              </ci>
+                              <cn type = "integer">
+                                     2 
+                              </cn>
+                           </apply>
+                        </apply>
+                     </apply>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "Vmax_1" value = "97.24"/>
+                  <parameter id = "Kglc_1" value = "1.1918"/>
+                  <parameter id = "Ki_1" value = "0.91"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J1" reversible = "true">
+            <listOfReactants>
+               <speciesReference species = "G6P" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "F6P" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "684" y = "234"/>
+                  <pt x = "685" y = "235"/>
+                  <pt x = "685" y = "235"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <divide/>
+                     <apply>
+                        <times/>
+                        <ci>
+                               Vmax_3 
+                        </ci>
+                        <apply>
+                           <minus/>
+                           <apply>
+                              <divide/>
+                              <ci>
+                                     G6P 
+                              </ci>
+                              <ci>
+                                     Kg6p_3 
+                              </ci>
+                           </apply>
+                           <apply>
+                              <divide/>
+                              <ci>
+                                     F6P 
+                              </ci>
+                              <apply>
+                                 <times/>
+                                 <ci>
+                                        Kg6p_3 
+                                 </ci>
+                                 <ci>
+                                        Keq_3 
+                                 </ci>
+                              </apply>
+                           </apply>
+                        </apply>
+                     </apply>
+                     <apply>
+                        <plus/>
+                        <cn type = "integer">
+                               1 
+                        </cn>
+                        <apply>
+                           <divide/>
+                           <ci>
+                                  G6P 
+                           </ci>
+                           <ci>
+                                  Kg6p_3 
+                           </ci>
+                        </apply>
+                        <apply>
+                           <divide/>
+                           <ci>
+                                  F6P 
+                           </ci>
+                           <ci>
+                                  Kf6p_3 
+                           </ci>
+                        </apply>
+                     </apply>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "Vmax_3" value = "1056"/>
+                  <parameter id = "Kg6p_3" value = "1.4"/>
+                  <parameter id = "Keq_3" value = "0.29"/>
+                  <parameter id = "Kf6p_3" value = "0.3"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J2" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "ATP" stoichiometry = "1"/>
+               <speciesReference species = "F6P" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "ADP" stoichiometry = "1"/>
+               <speciesReference species = "F16bP" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "684" y = "324"/>
+                  <pt x = "683" y = "297"/>
+                  <pt x = "683" y = "297"/>
+                  <pt x = "683" y = "297"/>
+                  <pt x = "683" y = "297"/>
+                  <pt x = "685" y = "351"/>
+                  <pt x = "685" y = "351"/>
+                  <pt x = "685" y = "351"/>
+                  <pt x = "685" y = "351"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            Vmax_4 
+                     </ci>
+                     <apply>
+                        <divide/>
+                        <apply>
+                           <times/>
+                           <ci>
+                                  gR_4 
+                           </ci>
+                           <apply>
+                              <divide/>
+                              <ci>
+                                     F6P 
+                              </ci>
+                              <ci>
+                                     Kf6p_4 
+                              </ci>
+                           </apply>
+                           <apply>
+                              <divide/>
+                              <ci>
+                                     ATP 
+                              </ci>
+                              <ci>
+                                     Katp_4 
+                              </ci>
+                           </apply>
+                           <apply>
+                              <plus/>
+                              <cn type = "integer">
+                                     1 
+                              </cn>
+                              <apply>
+                                 <divide/>
+                                 <ci>
+                                        F6P 
+                                 </ci>
+                                 <ci>
+                                        Kf6p_4 
+                                 </ci>
+                              </apply>
+                              <apply>
+                                 <divide/>
+                                 <ci>
+                                        ATP 
+                                 </ci>
+                                 <ci>
+                                        Katp_4 
+                                 </ci>
+                              </apply>
+                              <apply>
+                                 <divide/>
+                                 <apply>
+                                    <times/>
+                                    <apply>
+                                       <divide/>
+                                       <apply>
+                                          <times/>
+                                          <ci>
+                                                 gR_4 
+                                          </ci>
+                                          <ci>
+                                                 F6P 
+                                          </ci>
+                                       </apply>
+                                       <ci>
+                                              Kf6p_4 
+                                       </ci>
+                                    </apply>
+                                    <ci>
+                                           ATP 
+                                    </ci>
+                                 </apply>
+                                 <ci>
+                                        Katp_4 
+                                 </ci>
+                              </apply>
+                           </apply>
+                        </apply>
+                        <apply>
+                           <plus/>
+                           <apply>
+                              <power/>
+                              <apply>
+                                 <plus/>
+                                 <cn type = "integer">
+                                        1 
+                                 </cn>
+                                 <apply>
+                                    <divide/>
+                                    <ci>
+                                           F6P 
+                                    </ci>
+                                    <ci>
+                                           Kf6p_4 
+                                    </ci>
+                                 </apply>
+                                 <apply>
+                                    <divide/>
+                                    <ci>
+                                           ATP 
+                                    </ci>
+                                    <ci>
+                                           Katp_4 
+                                    </ci>
+                                 </apply>
+                                 <apply>
+                                    <divide/>
+                                    <apply>
+                                       <times/>
+                                       <apply>
+                                          <divide/>
+                                          <apply>
+                                             <times/>
+                                             <ci>
+                                                    gR_4 
+                                             </ci>
+                                             <ci>
+                                                    F6P 
+                                             </ci>
+                                          </apply>
+                                          <ci>
+                                                 Kf6p_4 
+                                          </ci>
+                                       </apply>
+                                       <ci>
+                                              ATP 
+                                       </ci>
+                                    </apply>
+                                    <ci>
+                                           Katp_4 
+                                    </ci>
+                                 </apply>
+                              </apply>
+                              <cn type = "integer">
+                                     2 
+                              </cn>
+                           </apply>
+                           <apply>
+                              <times/>
+                              <ci>
+                                     L0_4 
+                              </ci>
+                              <apply>
+                                 <power/>
+                                 <apply>
+                                    <divide/>
+                                    <apply>
+                                       <plus/>
+                                       <cn type = "integer">
+                                              1 
+                                       </cn>
+                                       <apply>
+                                          <divide/>
+                                          <apply>
+                                             <times/>
+                                             <ci>
+                                                    Ciatp_4 
+                                             </ci>
+                                             <ci>
+                                                    ATP 
+                                             </ci>
+                                          </apply>
+                                          <ci>
+                                                 Kiatp_4 
+                                          </ci>
+                                       </apply>
+                                    </apply>
+                                    <apply>
+                                       <plus/>
+                                       <cn type = "integer">
+                                              1 
+                                       </cn>
+                                       <apply>
+                                          <divide/>
+                                          <ci>
+                                                 ATP 
+                                          </ci>
+                                          <ci>
+                                                 Kiatp_4 
+                                          </ci>
+                                       </apply>
+                                    </apply>
+                                 </apply>
+                                 <cn type = "integer">
+                                        2 
+                                 </cn>
+                              </apply>
+                              <apply>
+                                 <power/>
+                                 <apply>
+                                    <divide/>
+                                    <apply>
+                                       <plus/>
+                                       <cn type = "integer">
+                                              1 
+                                       </cn>
+                                       <apply>
+                                          <divide/>
+                                          <apply>
+                                             <times/>
+                                             <ci>
+                                                    Camp_4 
+                                             </ci>
+                                             <ci>
+                                                    AMP 
+                                             </ci>
+                                          </apply>
+                                          <ci>
+                                                 Kamp_4 
+                                          </ci>
+                                       </apply>
+                                    </apply>
+                                    <apply>
+                                       <plus/>
+                                       <cn type = "integer">
+                                              1 
+                                       </cn>
+                                       <apply>
+                                          <divide/>
+                                          <ci>
+                                                 AMP 
+                                          </ci>
+                                          <ci>
+                                                 Kamp_4 
+                                          </ci>
+                                       </apply>
+                                    </apply>
+                                 </apply>
+                                 <cn type = "integer">
+                                        2 
+                                 </cn>
+                              </apply>
+                              <apply>
+                                 <power/>
+                                 <apply>
+                                    <divide/>
+                                    <apply>
+                                       <plus/>
+                                       <cn type = "integer">
+                                              1 
+                                       </cn>
+                                       <apply>
+                                          <divide/>
+                                          <apply>
+                                             <times/>
+                                             <ci>
+                                                    Cf26_4 
+                                             </ci>
+                                             <ci>
+                                                    F26bP 
+                                             </ci>
+                                          </apply>
+                                          <ci>
+                                                 Kf26_4 
+                                          </ci>
+                                       </apply>
+                                       <apply>
+                                          <divide/>
+                                          <apply>
+                                             <times/>
+                                             <ci>
+                                                    Cf16_4 
+                                             </ci>
+                                             <ci>
+                                                    F16bP 
+                                             </ci>
+                                          </apply>
+                                          <ci>
+                                                 Kf16_4 
+                                          </ci>
+                                       </apply>
+                                    </apply>
+                                    <apply>
+                                       <plus/>
+                                       <cn type = "integer">
+                                              1 
+                                       </cn>
+                                       <apply>
+                                          <divide/>
+                                          <ci>
+                                                 F26bP 
+                                          </ci>
+                                          <ci>
+                                                 Kf26_4 
+                                          </ci>
+                                       </apply>
+                                       <apply>
+                                          <divide/>
+                                          <ci>
+                                                 F16bP 
+                                          </ci>
+                                          <ci>
+                                                 Kf16_4 
+                                          </ci>
+                                       </apply>
+                                    </apply>
+                                 </apply>
+                                 <cn type = "integer">
+                                        2 
+                                 </cn>
+                              </apply>
+                              <apply>
+                                 <power/>
+                                 <apply>
+                                    <plus/>
+                                    <cn type = "integer">
+                                           1 
+                                    </cn>
+                                    <apply>
+                                       <divide/>
+                                       <apply>
+                                          <times/>
+                                          <ci>
+                                                 Catp_4 
+                                          </ci>
+                                          <ci>
+                                                 ATP 
+                                          </ci>
+                                       </apply>
+                                       <ci>
+                                              Katp_4 
+                                       </ci>
+                                    </apply>
+                                 </apply>
+                                 <cn type = "integer">
+                                        2 
+                                 </cn>
+                              </apply>
+                           </apply>
+                        </apply>
+                     </apply>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "Vmax_4" value = "110"/>
+                  <parameter id = "gR_4" value = "5.12"/>
+                  <parameter id = "Kf6p_4" value = "0.1"/>
+                  <parameter id = "Katp_4" value = "0.71"/>
+                  <parameter id = "L0_4" value = "0.66"/>
+                  <parameter id = "Ciatp_4" value = "100"/>
+                  <parameter id = "Kiatp_4" value = "0.65"/>
+                  <parameter id = "Camp_4" value = "0.0845"/>
+                  <parameter id = "Kamp_4" value = "0.0995"/>
+                  <parameter id = "Cf26_4" value = "0.0174"/>
+                  <parameter id = "Kf26_4" value = "0.000682"/>
+                  <parameter id = "Cf16_4" value = "0.397"/>
+                  <parameter id = "Kf16_4" value = "0.111"/>
+                  <parameter id = "Catp_4" value = "3"/>
+                  <parameter id = "F26bP" value = "0.02"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J3" reversible = "true">
+            <listOfReactants>
+               <speciesReference species = "F16bP" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "DHAP" stoichiometry = "1"/>
+               <speciesReference species = "GAP" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "686" y = "429"/>
+                  <pt x = "687" y = "419"/>
+                  <pt x = "686" y = "412"/>
+                  <pt x = "686" y = "446"/>
+                  <pt x = "698" y = "438"/>
+                  <pt x = "686" y = "446"/>
+                  <pt x = "680" y = "432"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <divide/>
+                     <apply>
+                        <times/>
+                        <ci>
+                               Vmax_5 
+                        </ci>
+                        <apply>
+                           <minus/>
+                           <apply>
+                              <divide/>
+                              <ci>
+                                     F16bP 
+                              </ci>
+                              <ci>
+                                     Kf16bp_5 
+                              </ci>
+                           </apply>
+                           <apply>
+                              <divide/>
+                              <apply>
+                                 <times/>
+                                 <ci>
+                                        DHAP 
+                                 </ci>
+                                 <ci>
+                                        GAP 
+                                 </ci>
+                              </apply>
+                              <apply>
+                                 <times/>
+                                 <ci>
+                                        Kf16bp_5 
+                                 </ci>
+                                 <ci>
+                                        Keq_5 
+                                 </ci>
+                              </apply>
+                           </apply>
+                        </apply>
+                     </apply>
+                     <apply>
+                        <plus/>
+                        <cn type = "integer">
+                               1 
+                        </cn>
+                        <apply>
+                           <divide/>
+                           <ci>
+                                  F16bP 
+                           </ci>
+                           <ci>
+                                  Kf16bp_5 
+                           </ci>
+                        </apply>
+                        <apply>
+                           <divide/>
+                           <ci>
+                                  DHAP 
+                           </ci>
+                           <ci>
+                                  Kdhap_5 
+                           </ci>
+                        </apply>
+                        <apply>
+                           <divide/>
+                           <ci>
+                                  GAP 
+                           </ci>
+                           <ci>
+                                  Kgap_5 
+                           </ci>
+                        </apply>
+                        <apply>
+                           <divide/>
+                           <apply>
+                              <times/>
+                              <ci>
+                                     F16bP 
+                              </ci>
+                              <ci>
+                                     GAP 
+                              </ci>
+                           </apply>
+                           <apply>
+                              <times/>
+                              <ci>
+                                     Kf16bp_5 
+                              </ci>
+                              <ci>
+                                     Kigap_5 
+                              </ci>
+                           </apply>
+                        </apply>
+                        <apply>
+                           <divide/>
+                           <apply>
+                              <times/>
+                              <ci>
+                                     DHAP 
+                              </ci>
+                              <ci>
+                                     GAP 
+                              </ci>
+                           </apply>
+                           <apply>
+                              <times/>
+                              <ci>
+                                     Kdhap_5 
+                              </ci>
+                              <ci>
+                                     Kgap_5 
+                              </ci>
+                           </apply>
+                        </apply>
+                     </apply>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "Vmax_5" value = "94.69"/>
+                  <parameter id = "Kf16bp_5" value = "0.3"/>
+                  <parameter id = "Keq_5" value = "0.069"/>
+                  <parameter id = "Kdhap_5" value = "2"/>
+                  <parameter id = "Kgap_5" value = "2.4"/>
+                  <parameter id = "Kigap_5" value = "10"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J4" reversible = "true">
+            <listOfReactants>
+               <speciesReference species = "DHAP" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "GAP" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "710" y = "470"/>
+                  <pt x = "709" y = "471"/>
+                  <pt x = "709" y = "471"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <minus/>
+                     <apply>
+                        <times/>
+                        <ci>
+                               k1_6 
+                        </ci>
+                        <ci>
+                               DHAP 
+                        </ci>
+                     </apply>
+                     <apply>
+                        <times/>
+                        <ci>
+                               k2_6 
+                        </ci>
+                        <ci>
+                               GAP 
+                        </ci>
+                     </apply>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "k1_6" value = "450000"/>
+                  <parameter id = "k2_6" value = "10000000"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J5" reversible = "true">
+            <listOfReactants>
+               <speciesReference species = "GAP" stoichiometry = "1"/>
+               <speciesReference species = "NAD" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "BPG" stoichiometry = "1"/>
+               <speciesReference species = "NADH" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "632" y = "533"/>
+                  <pt x = "633" y = "515"/>
+                  <pt x = "633" y = "507"/>
+                  <pt x = "557" y = "504"/>
+                  <pt x = "633" y = "507"/>
+                  <pt x = "631" y = "559"/>
+                  <pt x = "632" y = "548"/>
+                  <pt x = "631" y = "559"/>
+                  <pt x = "572" y = "582"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <divide/>
+                     <apply>
+                        <times/>
+                        <ci>
+                               C_7 
+                        </ci>
+                        <apply>
+                           <minus/>
+                           <apply>
+                              <divide/>
+                              <apply>
+                                 <times/>
+                                 <ci>
+                                        Vmaxf_7 
+                                 </ci>
+                                 <ci>
+                                        GAP 
+                                 </ci>
+                                 <ci>
+                                        NAD 
+                                 </ci>
+                              </apply>
+                              <apply>
+                                 <times/>
+                                 <ci>
+                                        Kgap_7 
+                                 </ci>
+                                 <ci>
+                                        Knad_7 
+                                 </ci>
+                              </apply>
+                           </apply>
+                           <apply>
+                              <divide/>
+                              <apply>
+                                 <times/>
+                                 <ci>
+                                        Vmaxr_7 
+                                 </ci>
+                                 <ci>
+                                        BPG 
+                                 </ci>
+                                 <ci>
+                                        NADH 
+                                 </ci>
+                              </apply>
+                              <apply>
+                                 <times/>
+                                 <ci>
+                                        Kbpg_7 
+                                 </ci>
+                                 <ci>
+                                        Knadh_7 
+                                 </ci>
+                              </apply>
+                           </apply>
+                        </apply>
+                     </apply>
+                     <apply>
+                        <times/>
+                        <apply>
+                           <plus/>
+                           <cn type = "integer">
+                                  1 
+                           </cn>
+                           <apply>
+                              <divide/>
+                              <ci>
+                                     GAP 
+                              </ci>
+                              <ci>
+                                     Kgap_7 
+                              </ci>
+                           </apply>
+                           <apply>
+                              <divide/>
+                              <ci>
+                                     BPG 
+                              </ci>
+                              <ci>
+                                     Kbpg_7 
+                              </ci>
+                           </apply>
+                        </apply>
+                        <apply>
+                           <plus/>
+                           <cn type = "integer">
+                                  1 
+                           </cn>
+                           <apply>
+                              <divide/>
+                              <ci>
+                                     NAD 
+                              </ci>
+                              <ci>
+                                     Knad_7 
+                              </ci>
+                           </apply>
+                           <apply>
+                              <divide/>
+                              <ci>
+                                     NADH 
+                              </ci>
+                              <ci>
+                                     Knadh_7 
+                              </ci>
+                           </apply>
+                        </apply>
+                     </apply>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "C_7" value = "1"/>
+                  <parameter id = "Vmaxf_7" value = "1152"/>
+                  <parameter id = "Kgap_7" value = "0.21"/>
+                  <parameter id = "Knad_7" value = "0.09"/>
+                  <parameter id = "Vmaxr_7" value = "6719"/>
+                  <parameter id = "Kbpg_7" value = "0.0098"/>
+                  <parameter id = "Knadh_7" value = "0.06"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J6" reversible = "true">
+            <listOfReactants>
+               <speciesReference species = "P3G" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "P2G" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "632" y = "721"/>
+                  <pt x = "633" y = "722"/>
+                  <pt x = "633" y = "722"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <divide/>
+                     <apply>
+                        <times/>
+                        <ci>
+                               Vmax_9 
+                        </ci>
+                        <apply>
+                           <minus/>
+                           <apply>
+                              <divide/>
+                              <ci>
+                                     P3G 
+                              </ci>
+                              <ci>
+                                     Kp3g_9 
+                              </ci>
+                           </apply>
+                           <apply>
+                              <divide/>
+                              <ci>
+                                     P2G 
+                              </ci>
+                              <apply>
+                                 <times/>
+                                 <ci>
+                                        Kp3g_9 
+                                 </ci>
+                                 <ci>
+                                        Keq_9 
+                                 </ci>
+                              </apply>
+                           </apply>
+                        </apply>
+                     </apply>
+                     <apply>
+                        <plus/>
+                        <cn type = "integer">
+                               1 
+                        </cn>
+                        <apply>
+                           <divide/>
+                           <ci>
+                                  P3G 
+                           </ci>
+                           <ci>
+                                  Kp3g_9 
+                           </ci>
+                        </apply>
+                        <apply>
+                           <divide/>
+                           <ci>
+                                  P2G 
+                           </ci>
+                           <ci>
+                                  Kp2g_9 
+                           </ci>
+                        </apply>
+                     </apply>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "Vmax_9" value = "2585"/>
+                  <parameter id = "Kp3g_9" value = "1.2"/>
+                  <parameter id = "Keq_9" value = "0.19"/>
+                  <parameter id = "Kp2g_9" value = "0.08"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J7" reversible = "true">
+            <listOfReactants>
+               <speciesReference species = "P2G" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "PEP" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "632" y = "788"/>
+                  <pt x = "633" y = "789"/>
+                  <pt x = "633" y = "789"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <divide/>
+                     <apply>
+                        <times/>
+                        <ci>
+                               Vmax_10 
+                        </ci>
+                        <apply>
+                           <minus/>
+                           <apply>
+                              <divide/>
+                              <ci>
+                                     P2G 
+                              </ci>
+                              <ci>
+                                     Kp2g_10 
+                              </ci>
+                           </apply>
+                           <apply>
+                              <divide/>
+                              <ci>
+                                     PEP 
+                              </ci>
+                              <apply>
+                                 <times/>
+                                 <ci>
+                                        Kp2g_10 
+                                 </ci>
+                                 <ci>
+                                        Keq_10 
+                                 </ci>
+                              </apply>
+                           </apply>
+                        </apply>
+                     </apply>
+                     <apply>
+                        <plus/>
+                        <cn type = "integer">
+                               1 
+                        </cn>
+                        <apply>
+                           <divide/>
+                           <ci>
+                                  P2G 
+                           </ci>
+                           <ci>
+                                  Kp2g_10 
+                           </ci>
+                        </apply>
+                        <apply>
+                           <divide/>
+                           <ci>
+                                  PEP 
+                           </ci>
+                           <ci>
+                                  Kpep_10 
+                           </ci>
+                        </apply>
+                     </apply>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "Vmax_10" value = "201.6"/>
+                  <parameter id = "Kp2g_10" value = "0.04"/>
+                  <parameter id = "Keq_10" value = "6.7"/>
+                  <parameter id = "Kpep_10" value = "0.5"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J8" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "PYR" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "AcAld" stoichiometry = "1"/>
+               <speciesReference species = "CO2" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "216" y = "824"/>
+                  <pt x = "253" y = "824"/>
+                  <pt x = "250" y = "823"/>
+                  <pt x = "182" y = "825"/>
+                  <pt x = "164" y = "824"/>
+                  <pt x = "182" y = "825"/>
+                  <pt x = "179" y = "830"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <divide/>
+                     <apply>
+                        <times/>
+                        <ci>
+                               Vmax_12 
+                        </ci>
+                        <apply>
+                           <power/>
+                           <apply>
+                              <divide/>
+                              <ci>
+                                     PYR 
+                              </ci>
+                              <ci>
+                                     Kpyr_12 
+                              </ci>
+                           </apply>
+                           <ci>
+                                  nH_12 
+                           </ci>
+                        </apply>
+                     </apply>
+                     <apply>
+                        <plus/>
+                        <cn type = "integer">
+                               1 
+                        </cn>
+                        <apply>
+                           <power/>
+                           <apply>
+                              <divide/>
+                              <ci>
+                                     PYR 
+                              </ci>
+                              <ci>
+                                     Kpyr_12 
+                              </ci>
+                           </apply>
+                           <ci>
+                                  nH_12 
+                           </ci>
+                        </apply>
+                     </apply>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "Vmax_12" value = "857.8"/>
+                  <parameter id = "Kpyr_12" value = "4.33"/>
+                  <parameter id = "nH_12" value = "1.9"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J9" reversible = "true">
+            <listOfReactants>
+               <speciesReference species = "NAD" stoichiometry = "1"/>
+               <speciesReference species = "EtOH" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "NADH" stoichiometry = "1"/>
+               <speciesReference species = "AcAld" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "89" y = "549"/>
+                  <pt x = "219" y = "451"/>
+                  <pt x = "91" y = "466"/>
+                  <pt x = "89" y = "470"/>
+                  <pt x = "91" y = "466"/>
+                  <pt x = "87" y = "632"/>
+                  <pt x = "235" y = "645"/>
+                  <pt x = "87" y = "632"/>
+                  <pt x = "88" y = "664"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <divide/>
+                     <apply>
+                        <times/>
+                        <ci>
+                               Vmax_13 
+                        </ci>
+                        <apply>
+                           <minus/>
+                           <apply>
+                              <divide/>
+                              <apply>
+                                 <times/>
+                                 <ci>
+                                        EtOH 
+                                 </ci>
+                                 <ci>
+                                        NAD 
+                                 </ci>
+                              </apply>
+                              <apply>
+                                 <times/>
+                                 <ci>
+                                        Ketoh_13 
+                                 </ci>
+                                 <ci>
+                                        Kinad_13 
+                                 </ci>
+                              </apply>
+                           </apply>
+                           <apply>
+                              <divide/>
+                              <apply>
+                                 <times/>
+                                 <ci>
+                                        AcAld 
+                                 </ci>
+                                 <ci>
+                                        NADH 
+                                 </ci>
+                              </apply>
+                              <apply>
+                                 <times/>
+                                 <ci>
+                                        Ketoh_13 
+                                 </ci>
+                                 <ci>
+                                        Kinad_13 
+                                 </ci>
+                                 <ci>
+                                        Keq_13 
+                                 </ci>
+                              </apply>
+                           </apply>
+                        </apply>
+                     </apply>
+                     <apply>
+                        <plus/>
+                        <cn type = "integer">
+                               1 
+                        </cn>
+                        <apply>
+                           <divide/>
+                           <ci>
+                                  NAD 
+                           </ci>
+                           <ci>
+                                  Kinad_13 
+                           </ci>
+                        </apply>
+                        <apply>
+                           <divide/>
+                           <apply>
+                              <times/>
+                              <ci>
+                                     EtOH 
+                              </ci>
+                              <ci>
+                                     Knad_13 
+                              </ci>
+                           </apply>
+                           <apply>
+                              <times/>
+                              <ci>
+                                     Kinad_13 
+                              </ci>
+                              <ci>
+                                     Ketoh_13 
+                              </ci>
+                           </apply>
+                        </apply>
+                        <apply>
+                           <divide/>
+                           <apply>
+                              <times/>
+                              <ci>
+                                     AcAld 
+                              </ci>
+                              <ci>
+                                     Knadh_13 
+                              </ci>
+                           </apply>
+                           <apply>
+                              <times/>
+                              <ci>
+                                     Kinadh_13 
+                              </ci>
+                              <ci>
+                                     Kacald_13 
+                              </ci>
+                           </apply>
+                        </apply>
+                        <apply>
+                           <divide/>
+                           <ci>
+                                  NADH 
+                           </ci>
+                           <ci>
+                                  Kinadh_13 
+                           </ci>
+                        </apply>
+                        <apply>
+                           <divide/>
+                           <apply>
+                              <times/>
+                              <ci>
+                                     EtOH 
+                              </ci>
+                              <ci>
+                                     NAD 
+                              </ci>
+                           </apply>
+                           <apply>
+                              <times/>
+                              <ci>
+                                     Kinad_13 
+                              </ci>
+                              <ci>
+                                     Ketoh_13 
+                              </ci>
+                           </apply>
+                        </apply>
+                        <apply>
+                           <divide/>
+                           <apply>
+                              <times/>
+                              <ci>
+                                     NAD 
+                              </ci>
+                              <ci>
+                                     AcAld 
+                              </ci>
+                              <ci>
+                                     Knadh_13 
+                              </ci>
+                           </apply>
+                           <apply>
+                              <times/>
+                              <ci>
+                                     Kinad_13 
+                              </ci>
+                              <ci>
+                                     Kinadh_13 
+                              </ci>
+                              <ci>
+                                     Kacald_13 
+                              </ci>
+                           </apply>
+                        </apply>
+                        <apply>
+                           <divide/>
+                           <apply>
+                              <times/>
+                              <ci>
+                                     EtOH 
+                              </ci>
+                              <ci>
+                                     NADH 
+                              </ci>
+                              <ci>
+                                     Knad_13 
+                              </ci>
+                           </apply>
+                           <apply>
+                              <times/>
+                              <ci>
+                                     Kinad_13 
+                              </ci>
+                              <ci>
+                                     Kinadh_13 
+                              </ci>
+                              <ci>
+                                     Ketoh_13 
+                              </ci>
+                           </apply>
+                        </apply>
+                        <apply>
+                           <divide/>
+                           <apply>
+                              <times/>
+                              <ci>
+                                     AcAld 
+                              </ci>
+                              <ci>
+                                     NADH 
+                              </ci>
+                           </apply>
+                           <apply>
+                              <times/>
+                              <ci>
+                                     Kacald_13 
+                              </ci>
+                              <ci>
+                                     Kinadh_13 
+                              </ci>
+                           </apply>
+                        </apply>
+                        <apply>
+                           <divide/>
+                           <apply>
+                              <times/>
+                              <ci>
+                                     EtOH 
+                              </ci>
+                              <ci>
+                                     NAD 
+                              </ci>
+                              <ci>
+                                     AcAld 
+                              </ci>
+                           </apply>
+                           <apply>
+                              <times/>
+                              <ci>
+                                     Kinad_13 
+                              </ci>
+                              <ci>
+                                     Kiacald_13 
+                              </ci>
+                              <ci>
+                                     Ketoh_13 
+                              </ci>
+                           </apply>
+                        </apply>
+                        <apply>
+                           <divide/>
+                           <apply>
+                              <times/>
+                              <ci>
+                                     EtOH 
+                              </ci>
+                              <ci>
+                                     AcAld 
+                              </ci>
+                              <ci>
+                                     NADH 
+                              </ci>
+                           </apply>
+                           <apply>
+                              <times/>
+                              <ci>
+                                     Kietoh_13 
+                              </ci>
+                              <ci>
+                                     Kinadh_13 
+                              </ci>
+                              <ci>
+                                     Kacald_13 
+                              </ci>
+                           </apply>
+                        </apply>
+                     </apply>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "Vmax_13" value = "209.5"/>
+                  <parameter id = "Ketoh_13" value = "17"/>
+                  <parameter id = "Kinad_13" value = "0.92"/>
+                  <parameter id = "Keq_13" value = "6.9E-5"/>
+                  <parameter id = "Knad_13" value = "0.17"/>
+                  <parameter id = "Knadh_13" value = "0.11"/>
+                  <parameter id = "Kinadh_13" value = "0.031"/>
+                  <parameter id = "Kacald_13" value = "1.11"/>
+                  <parameter id = "Kiacald_13" value = "1.1"/>
+                  <parameter id = "Kietoh_13" value = "90"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J10" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "ATP" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "ADP" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "519" y = "336"/>
+                  <pt x = "520" y = "337"/>
+                  <pt x = "520" y = "337"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            Katpase_14 
+                     </ci>
+                     <ci>
+                            ATP 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "Katpase_14" value = "39.5"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J11" reversible = "true">
+            <listOfReactants>
+               <speciesReference species = "ADP" stoichiometry = "2"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "ATP" stoichiometry = "1"/>
+               <speciesReference species = "AMP" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "349" y = "331"/>
+                  <pt x = "382" y = "372"/>
+                  <pt x = "350" y = "355"/>
+                  <pt x = "348" y = "307"/>
+                  <pt x = "401" y = "288"/>
+                  <pt x = "348" y = "307"/>
+                  <pt x = "347" y = "408"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <minus/>
+                     <apply>
+                        <times/>
+                        <ci>
+                               k1_15 
+                        </ci>
+                        <ci>
+                               ADP 
+                        </ci>
+                        <ci>
+                               ADP 
+                        </ci>
+                     </apply>
+                     <apply>
+                        <times/>
+                        <ci>
+                               k2_15 
+                        </ci>
+                        <ci>
+                               ATP 
+                        </ci>
+                        <ci>
+                               AMP 
+                        </ci>
+                     </apply>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "k1_15" value = "45"/>
+                  <parameter id = "k2_15" value = "100"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J12" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "DHAP" stoichiometry = "1"/>
+               <speciesReference species = "NADH" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "NAD" stoichiometry = "1"/>
+               <speciesReference species = "Glycerol" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "787" y = "540"/>
+                  <pt x = "787" y = "512"/>
+                  <pt x = "787" y = "502"/>
+                  <pt x = "578" y = "537"/>
+                  <pt x = "787" y = "502"/>
+                  <pt x = "787" y = "578"/>
+                  <pt x = "578" y = "536"/>
+                  <pt x = "787" y = "578"/>
+                  <pt x = "788" y = "576"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <divide/>
+                     <apply>
+                        <times/>
+                        <ci>
+                               Vmax_16 
+                        </ci>
+                        <apply>
+                           <minus/>
+                           <apply>
+                              <times/>
+                              <apply>
+                                 <divide/>
+                                 <ci>
+                                        DHAP 
+                                 </ci>
+                                 <ci>
+                                        Kdhap_16 
+                                 </ci>
+                              </apply>
+                              <apply>
+                                 <divide/>
+                                 <ci>
+                                        NADH 
+                                 </ci>
+                                 <ci>
+                                        Knadh_16 
+                                 </ci>
+                              </apply>
+                           </apply>
+                           <apply>
+                              <times/>
+                              <apply>
+                                 <divide/>
+                                 <ci>
+                                        Glycerol 
+                                 </ci>
+                                 <ci>
+                                        Kdhap_16 
+                                 </ci>
+                              </apply>
+                              <apply>
+                                 <divide/>
+                                 <ci>
+                                        NAD 
+                                 </ci>
+                                 <ci>
+                                        Knadh_16 
+                                 </ci>
+                              </apply>
+                              <apply>
+                                 <divide/>
+                                 <cn type = "integer">
+                                        1 
+                                 </cn>
+                                 <ci>
+                                        Keq_16 
+                                 </ci>
+                              </apply>
+                           </apply>
+                        </apply>
+                     </apply>
+                     <apply>
+                        <times/>
+                        <apply>
+                           <plus/>
+                           <cn type = "integer">
+                                  1 
+                           </cn>
+                           <apply>
+                              <divide/>
+                              <ci>
+                                     DHAP 
+                              </ci>
+                              <ci>
+                                     Kdhap_16 
+                              </ci>
+                           </apply>
+                           <apply>
+                              <divide/>
+                              <ci>
+                                     Glycerol 
+                              </ci>
+                              <ci>
+                                     Kglycerol_16 
+                              </ci>
+                           </apply>
+                        </apply>
+                        <apply>
+                           <plus/>
+                           <cn type = "integer">
+                                  1 
+                           </cn>
+                           <apply>
+                              <divide/>
+                              <ci>
+                                     NADH 
+                              </ci>
+                              <ci>
+                                     Knadh_16 
+                              </ci>
+                           </apply>
+                           <apply>
+                              <divide/>
+                              <ci>
+                                     NAD 
+                              </ci>
+                              <ci>
+                                     Knad_16 
+                              </ci>
+                           </apply>
+                        </apply>
+                     </apply>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "Vmax_16" value = "47.11"/>
+                  <parameter id = "Kdhap_16" value = "0.4"/>
+                  <parameter id = "Knadh_16" value = "0.023"/>
+                  <parameter id = "Keq_16" value = "4300"/>
+                  <parameter id = "Kglycerol_16" value = "1"/>
+                  <parameter id = "Knad_16" value = "0.93"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J13" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "NAD" stoichiometry = "3"/>
+               <speciesReference species = "AcAld" stoichiometry = "2"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "NADH" stoichiometry = "3"/>
+               <speciesReference species = "Succinate" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "193" y = "544"/>
+                  <pt x = "245" y = "546"/>
+                  <pt x = "194" y = "616"/>
+                  <pt x = "155" y = "708"/>
+                  <pt x = "194" y = "616"/>
+                  <pt x = "192" y = "472"/>
+                  <pt x = "244" y = "546"/>
+                  <pt x = "192" y = "472"/>
+                  <pt x = "190" y = "473"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            k_19 
+                     </ci>
+                     <ci>
+                            AcAld 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "k_19" value = "21.4"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J14" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "BPG" stoichiometry = "1"/>
+               <speciesReference species = "ADP" stoichiometry = "1">
+                  <annotation>
+                     <jd:shadowRef shadowRef = "___ADP_0"/>
+                  </annotation>
+               </speciesReference>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "P3G" stoichiometry = "1"/>
+               <speciesReference species = "ATP" stoichiometry = "1">
+                  <annotation>
+                     <jd:shadowRef shadowRef = "___ATP_1"/>
+                  </annotation>
+               </speciesReference>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "631" y = "637"/>
+                  <pt x = "632" y = "617"/>
+                  <pt x = "632" y = "617"/>
+                  <pt x = "632" y = "617"/>
+                  <pt x = "632" y = "617"/>
+                  <pt x = "630" y = "657"/>
+                  <pt x = "630" y = "657"/>
+                  <pt x = "630" y = "657"/>
+                  <pt x = "630" y = "657"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <divide/>
+                     <apply>
+                        <times/>
+                        <ci>
+                               Vmax_8 
+                        </ci>
+                        <apply>
+                           <divide/>
+                           <apply>
+                              <minus/>
+                              <apply>
+                                 <times/>
+                                 <ci>
+                                        Keq_8 
+                                 </ci>
+                                 <ci>
+                                        BPG 
+                                 </ci>
+                                 <ci>
+                                        ADP 
+                                 </ci>
+                              </apply>
+                              <apply>
+                                 <times/>
+                                 <ci>
+                                        P3G 
+                                 </ci>
+                                 <ci>
+                                        ATP 
+                                 </ci>
+                              </apply>
+                           </apply>
+                           <apply>
+                              <times/>
+                              <ci>
+                                     Kp3g_8 
+                              </ci>
+                              <ci>
+                                     Katp_8 
+                              </ci>
+                           </apply>
+                        </apply>
+                     </apply>
+                     <apply>
+                        <times/>
+                        <apply>
+                           <plus/>
+                           <cn type = "integer">
+                                  1 
+                           </cn>
+                           <apply>
+                              <divide/>
+                              <ci>
+                                     BPG 
+                              </ci>
+                              <ci>
+                                     Kbpg_8 
+                              </ci>
+                           </apply>
+                           <apply>
+                              <divide/>
+                              <ci>
+                                     P3G 
+                              </ci>
+                              <ci>
+                                     Kp3g_8 
+                              </ci>
+                           </apply>
+                        </apply>
+                        <apply>
+                           <plus/>
+                           <cn type = "integer">
+                                  1 
+                           </cn>
+                           <apply>
+                              <divide/>
+                              <ci>
+                                     ADP 
+                              </ci>
+                              <ci>
+                                     Kadp_8 
+                              </ci>
+                           </apply>
+                           <apply>
+                              <divide/>
+                              <ci>
+                                     ATP 
+                              </ci>
+                              <ci>
+                                     Katp_8 
+                              </ci>
+                           </apply>
+                        </apply>
+                     </apply>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "Vmax_8" value = "1288"/>
+                  <parameter id = "Keq_8" value = "3200"/>
+                  <parameter id = "Kp3g_8" value = "0.53"/>
+                  <parameter id = "Katp_8" value = "0.3"/>
+                  <parameter id = "Kbpg_8" value = "0.003"/>
+                  <parameter id = "Kadp_8" value = "0.2"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J15" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "G6P" stoichiometry = "1"/>
+               <speciesReference species = "ATP" stoichiometry = "1">
+                  <annotation>
+                     <jd:shadowRef shadowRef = "___ATP_2"/>
+                  </annotation>
+               </speciesReference>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "ADP" stoichiometry = "1">
+                  <annotation>
+                     <jd:shadowRef shadowRef = "___ADP_1"/>
+                  </annotation>
+               </speciesReference>
+               <speciesReference species = "Trehalose" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "832" y = "262"/>
+                  <pt x = "772" y = "199"/>
+                  <pt x = "831" y = "212"/>
+                  <pt x = "832" y = "211"/>
+                  <pt x = "831" y = "212"/>
+                  <pt x = "833" y = "312"/>
+                  <pt x = "833" y = "311"/>
+                  <pt x = "833" y = "312"/>
+                  <pt x = "833" y = "313"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <ci>
+                         Ktrehalose_18 
+                  </ci>
+               </math>
+               <listOfParameters>
+                  <parameter id = "Ktrehalose_18" value = "2.4"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J16" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "ATP" stoichiometry = "1">
+                  <annotation>
+                     <jd:shadowRef shadowRef = "___ATP_3"/>
+                  </annotation>
+               </speciesReference>
+               <speciesReference species = "GLCi" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "ADP" stoichiometry = "1">
+                  <annotation>
+                     <jd:shadowRef shadowRef = "___ADP_2"/>
+                  </annotation>
+               </speciesReference>
+               <speciesReference species = "G6P" stoichiometry = "1"/>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "683" y = "121"/>
+                  <pt x = "658" y = "89"/>
+                  <pt x = "683" y = "87"/>
+                  <pt x = "682" y = "103"/>
+                  <pt x = "683" y = "87"/>
+                  <pt x = "683" y = "155"/>
+                  <pt x = "662" y = "148"/>
+                  <pt x = "683" y = "155"/>
+                  <pt x = "680" y = "149"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <divide/>
+                     <apply>
+                        <times/>
+                        <ci>
+                               Vmax_2 
+                        </ci>
+                        <apply>
+                           <minus/>
+                           <apply>
+                              <divide/>
+                              <apply>
+                                 <times/>
+                                 <ci>
+                                        GLCi 
+                                 </ci>
+                                 <ci>
+                                        ATP 
+                                 </ci>
+                              </apply>
+                              <apply>
+                                 <times/>
+                                 <ci>
+                                        Kglc_2 
+                                 </ci>
+                                 <ci>
+                                        Katp_2 
+                                 </ci>
+                              </apply>
+                           </apply>
+                           <apply>
+                              <divide/>
+                              <apply>
+                                 <times/>
+                                 <ci>
+                                        G6P 
+                                 </ci>
+                                 <ci>
+                                        ADP 
+                                 </ci>
+                              </apply>
+                              <apply>
+                                 <times/>
+                                 <ci>
+                                        Kglc_2 
+                                 </ci>
+                                 <ci>
+                                        Katp_2 
+                                 </ci>
+                                 <ci>
+                                        Keq_2 
+                                 </ci>
+                              </apply>
+                           </apply>
+                        </apply>
+                     </apply>
+                     <apply>
+                        <times/>
+                        <apply>
+                           <plus/>
+                           <cn type = "integer">
+                                  1 
+                           </cn>
+                           <apply>
+                              <divide/>
+                              <ci>
+                                     GLCi 
+                              </ci>
+                              <ci>
+                                     Kglc_2 
+                              </ci>
+                           </apply>
+                           <apply>
+                              <divide/>
+                              <ci>
+                                     G6P 
+                              </ci>
+                              <ci>
+                                     Kg6p_2 
+                              </ci>
+                           </apply>
+                        </apply>
+                        <apply>
+                           <plus/>
+                           <cn type = "integer">
+                                  1 
+                           </cn>
+                           <apply>
+                              <divide/>
+                              <ci>
+                                     ATP 
+                              </ci>
+                              <ci>
+                                     Katp_2 
+                              </ci>
+                           </apply>
+                           <apply>
+                              <divide/>
+                              <ci>
+                                     ADP 
+                              </ci>
+                              <ci>
+                                     Kadp_2 
+                              </ci>
+                           </apply>
+                        </apply>
+                     </apply>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "Vmax_2" value = "236.7"/>
+                  <parameter id = "Kglc_2" value = "0.08"/>
+                  <parameter id = "Katp_2" value = "0.15"/>
+                  <parameter id = "Keq_2" value = "2000"/>
+                  <parameter id = "Kg6p_2" value = "30"/>
+                  <parameter id = "Kadp_2" value = "0.23"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J17" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "ADP" stoichiometry = "1">
+                  <annotation>
+                     <jd:shadowRef shadowRef = "___ADP_3"/>
+                  </annotation>
+               </speciesReference>
+               <speciesReference species = "PEP" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "PYR" stoichiometry = "1"/>
+               <speciesReference species = "ATP" stoichiometry = "1">
+                  <annotation>
+                     <jd:shadowRef shadowRef = "___ATP_0"/>
+                  </annotation>
+               </speciesReference>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "466" y = "825"/>
+                  <pt x = "497" y = "806"/>
+                  <pt x = "496" y = "825"/>
+                  <pt x = "518" y = "826"/>
+                  <pt x = "496" y = "825"/>
+                  <pt x = "436" y = "825"/>
+                  <pt x = "436" y = "825"/>
+                  <pt x = "436" y = "825"/>
+                  <pt x = "435" y = "813"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <divide/>
+                     <apply>
+                        <times/>
+                        <ci>
+                               Vmax_11 
+                        </ci>
+                        <apply>
+                           <minus/>
+                           <apply>
+                              <divide/>
+                              <apply>
+                                 <times/>
+                                 <ci>
+                                        PEP 
+                                 </ci>
+                                 <ci>
+                                        ADP 
+                                 </ci>
+                              </apply>
+                              <apply>
+                                 <times/>
+                                 <ci>
+                                        Kpep_11 
+                                 </ci>
+                                 <ci>
+                                        Kadp_11 
+                                 </ci>
+                              </apply>
+                           </apply>
+                           <apply>
+                              <divide/>
+                              <apply>
+                                 <times/>
+                                 <ci>
+                                        PYR 
+                                 </ci>
+                                 <ci>
+                                        ATP 
+                                 </ci>
+                              </apply>
+                              <apply>
+                                 <times/>
+                                 <ci>
+                                        Kpep_11 
+                                 </ci>
+                                 <ci>
+                                        Kadp_11 
+                                 </ci>
+                                 <ci>
+                                        Keq_11 
+                                 </ci>
+                              </apply>
+                           </apply>
+                        </apply>
+                     </apply>
+                     <apply>
+                        <times/>
+                        <apply>
+                           <plus/>
+                           <cn type = "integer">
+                                  1 
+                           </cn>
+                           <apply>
+                              <divide/>
+                              <ci>
+                                     PEP 
+                              </ci>
+                              <ci>
+                                     Kpep_11 
+                              </ci>
+                           </apply>
+                           <apply>
+                              <divide/>
+                              <ci>
+                                     PYR 
+                              </ci>
+                              <ci>
+                                     Kpyr_11 
+                              </ci>
+                           </apply>
+                        </apply>
+                        <apply>
+                           <plus/>
+                           <cn type = "integer">
+                                  1 
+                           </cn>
+                           <apply>
+                              <divide/>
+                              <ci>
+                                     ADP 
+                              </ci>
+                              <ci>
+                                     Kadp_11 
+                              </ci>
+                           </apply>
+                           <apply>
+                              <divide/>
+                              <ci>
+                                     ATP 
+                              </ci>
+                              <ci>
+                                     Katp_11 
+                              </ci>
+                           </apply>
+                        </apply>
+                     </apply>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "Vmax_11" value = "1000"/>
+                  <parameter id = "Kpep_11" value = "0.14"/>
+                  <parameter id = "Kadp_11" value = "0.53"/>
+                  <parameter id = "Keq_11" value = "6100"/>
+                  <parameter id = "Kpyr_11" value = "21"/>
+                  <parameter id = "Katp_11" value = "1.5"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J18" reversible = "false">
+            <listOfReactants>
+               <speciesReference species = "G6P" stoichiometry = "1"/>
+               <speciesReference species = "ATP" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "Glycogen" stoichiometry = "1"/>
+               <speciesReference species = "ADP" stoichiometry = "1">
+                  <annotation>
+                     <jd:shadowRef shadowRef = "___ADP_4"/>
+                  </annotation>
+               </speciesReference>
+            </listOfProducts>
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "431" y = "199"/>
+                  <pt x = "560" y = "201"/>
+                  <pt x = "507" y = "199"/>
+                  <pt x = "518" y = "224"/>
+                  <pt x = "507" y = "199"/>
+                  <pt x = "355" y = "199"/>
+                  <pt x = "312" y = "173"/>
+                  <pt x = "355" y = "199"/>
+                  <pt x = "339" y = "197"/>
+               </jd:arcSeg>
+            </annotation>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <ci>
+                         KGLYCOGEN_17 
+                  </ci>
+               </math>
+               <listOfParameters>
+                  <parameter id = "KGLYCOGEN_17" value = "6"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+      </listOfReactions>
+   </model>
+</sbml>
